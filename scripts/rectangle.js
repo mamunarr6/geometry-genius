@@ -7,4 +7,5 @@ rectangleBtn.addEventListener('click', (e) => {
     const area = length * width;
 
     setInnerText('display-rectangle-area', area);
+    setCalculation(e, area);
 })
